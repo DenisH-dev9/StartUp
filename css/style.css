@@ -2,6 +2,12 @@
     font-family: 'Montserrat', sans-serif;
     font-family: 'Roboto Slab', serif;
     scroll-behavior: smooth;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    user-select: none;
+}
+img {
+    pointer-events: none;
 }
 .container {
     width: 72%;
